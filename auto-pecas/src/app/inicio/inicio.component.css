@@ -1,0 +1,86 @@
+.body{
+    background-image: url("/assets/img/fundoPretoChapa.jpg");
+    
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+.alignCenter{
+    display: flex;
+    align-items: center;
+}
+
+.special-card {
+    /* create a custom class so you 
+       do not run into specificity issues 
+       against bootstraps styles
+       which tends to work better than using !important 
+       (future you will thank you later)*/
+    
+      background-color: rgba(206, 204, 71, 0.993);
+      opacity: .4;
+    }
+
+
+
+    .fundo1{
+        background:#e3e3e3;
+        width:200px;
+        height:300px;
+        padding:5px;
+        background-image:url(/assets/img/teslaLogo.jpg);
+        background-position:center;
+        background-size:cover;
+        }
+
+        .fundo2{
+          background:#e3e3e3;
+          width:200px;
+          height:300px;
+          padding:5px;
+          background-image:url(/assets/img/hondaLogo.jpg);
+          background-position:center;
+          background-size:cover;
+          }
+        
+        .frente{
+          opacity:0;
+          width:100%;
+          height:100%;
+          background:#ffffff;
+          color:rgb(5, 3, 3);
+          transition: all .2s;
+          display:flex;
+          justify-content:center;
+          align-items:center;
+          flex-direction:column;
+          transform: scale(0.9);
+          font-family:verdana;
+        
+        }
+        
+        .frente:hover{
+          opacity:1;
+          transform: scale(1);
+        }
+
+
+
+        .parallax{
+          background-image: url('https://fiskararaquara.com.br/wp-content/uploads/2020/04/banner-6-curiosidades-sobre-o-hamburguer.jpg');
+      
+          min-height: 300px;
+          background-attachment: fixed;
+          background-position: 'center';
+          background-repeat: no-repeat;
+          background-size: cover; 
+      }
+      .parallax2{
+          background-image: url('/assets/img/lamborghiniRoads.jpg');
+      
+          min-height: 300px;
+          background-attachment: fixed;
+          background-position: 'center';
+          background-repeat: no-repeat;
+          background-size: cover; 
+      }

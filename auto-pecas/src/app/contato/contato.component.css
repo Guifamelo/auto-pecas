@@ -1,0 +1,13 @@
+.body{
+    background-image: url("/assets/img/fundoPretoChapa.jpg");
+    
+    background-attachment: fixed;
+    background-size: 100%;
+}
+.center{
+    text-align: center;
+}
+
+.ml-50{
+    margin-left: 50px;
+}
