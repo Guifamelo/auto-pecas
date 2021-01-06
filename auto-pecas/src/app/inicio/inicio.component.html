@@ -1,70 +1,26 @@
 <div class="container-fuid body">
-    <div>
+    <div id="topo">
         <!--Jumbotron-->
         <div class="jumbotron jumbotron-fluid bg-secondary">
             <div class="container">
-               
 
 
+                <div class="row">
 
-                <div class="row mb-0 bg-success">
 
-
-                    <div class="col-md-4 d-flex justify-content-start bg-warning">
-                     
-                        <a href="https://www.linkedin.com/in/guilherme-faria-de-melo-b14733103/" target="_blank" class="p-1">
-                            <img class="tm-social" src="/assets/icones/twitter.png" alt="twitter icon" width="100px"
-                                height="100px">
-                        </a>
-                
+                    <div class="col-md-12 d-flex justify-content-center">
+                        <span>Bem vindo a autopeca Auto</span><br>
+                        <p>Aqui voce encontra a maioria das pecas e acessorios para seu veiculo </p>
                     </div>
-                
-                    <div class="col-md-4 d-flex justify-content-end  bg-secondary">
-                        <a href="https://www.instagram/guifamelo" target="_blank" class="p-1">
-                            <img class="tm-social" src="assets/icones/instagram.png" alt="linkedin do criador da pagina" width="100px"
-                                height="100px">
-                        </a>
-                    </div>
-                
-                    <div class="col-md-4 d-flex justify-content-end  bg-secondary">
-                        <a href="https://www.github.com/guifamelo" target="_blank" class="p-1">
-                            <img class="tm-social" src="/assets/icones/github.png" alt="linkedin do criador da pagina" width="100px"
-                                height="100px">
-                        </a>
-                    </div>
-                
-                
+
+
                 </div>
-
 
 
 
             </div>
         </div>
         <!--/Jumbotron-->
-
-        <!--Tooltip-->
-        <div class="d-flex justify-content-center m-3">
-            <button type="button" class="btn btn-secondary m-3" data-bs-toggle="tooltip" data-bs-placement="top"
-                title="Tooltip on top">
-                Tooltip on top
-            </button>
-            <button type="button" class="btn btn-secondary m-3" data-bs-toggle="tooltip" data-bs-placement="right"
-                title="Tooltip on right">
-                Tooltip on right
-            </button>
-            <button type="button" class="btn btn-secondary m-3" data-bs-toggle="tooltip" data-bs-placement="bottom"
-                title="Tooltip on bottom">
-                Tooltip on bottom
-            </button>
-            <button type="button" class="btn btn-secondary m-3" data-bs-toggle="tooltip" data-bs-placement="left"
-                title="Tooltip on left">
-                Tooltip on left
-            </button>
-        </div>
-        <!--/Tooltip-->
-
-       
 
 
     </div>
@@ -112,8 +68,31 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
-
     <!--/Carrossel-->
+
+
+
+    <!--Tooltip................... COLOCAR NO FINAL DA PAG COM LINKS DA NAVBAR-->
+    <div class="d-flex justify-content-center m-3">
+        <button id="ttCarrinho" routerLink='#footer' type="button" class="btn btn-secondary m-3"
+            data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top">
+            carrinho
+        </button>
+        <button href='#footer' type="button" class="btn btn-secondary m-3" data-bs-toggle="tooltip"
+            data-bs-placement="right" title="Tooltip on right">
+            Tooltip on right
+        </button>
+        <button id="ttContato" routerLink='#footer' type="button" class="btn btn-secondary m-3" data-bs-toggle="tooltip"
+            data-bs-placement="bottom" title="Tooltip on bottom">
+            Tooltip on bottom
+        </button>
+        <button type="button"  class="btn btn-secondary m-3" data-bs-toggle="tooltip"
+            data-bs-placement="left" title="Tooltip on left"><a href="href='#footer'">
+            ir ao footer</a>
+        </button>
+    </div>
+    <!--/Tooltip............... COLOCAR NO FINAL DA PAG COM LINKS DA NAVBAR-->
+
 
     <!--Destaques-->
     <hr>
@@ -222,6 +201,7 @@
         </div>
     </div>
     <!--/Mais vendidos-->
+
     <!--Marcas-->
     <div>
         <hr>
@@ -233,18 +213,18 @@
             <div class="card mt-5 mb-5 m-3 " style="width: 10rem;">
                 <img src="/assets/img/volkswagenLogo.png" class="card-img-top" alt="retrovisor img">
                 <div class="card-body">
-                    <h5 class="card-title">Volkswagen</h5>
-                    <p class="card-text">Pecas Originais e paralelas</p>
-                    <a href="#" class="btn btn-danger">+ Detalhes</a>
+                    <h5 class="card-title">Fulano de tal</h5>
+                    <p class="card-text">"Tenhho mto orgulho de fazr parte da Auto"s</p>
+                    <a href="#" class="btn btn-danger">+ leia mais</a>
                 </div>
             </div>
 
             <div class="card mt-5 mb-5 m-3 " style="width: 10rem;">
                 <img src="/assets/img/fiatLogo.png" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">Fiat</h5>
-                    <p class="card-text">Pecas Originais e paralelas</p>
-                    <a href="#" class="btn btn-danger">+ Detalhes</a>
+                    <h5 class="card-title">Beltrano</h5>
+                    <p class="card-text">"empresa que respeita, estou feliz aqui..."</p>
+                    <a href="#" class="btn btn-danger">+ leia mais</a>
                 </div>
             </div>
 
@@ -268,9 +248,8 @@
 
         </div>
     </div>
-
-
     <!--/Marcas-->
+
     <!--Novidades-->
     <hr>
     <span>
@@ -280,7 +259,7 @@
         <div class="fundo1 justify-content-center m-3">
             <div class="frente">
                 <a href="#" class="btn btn-danger justify-content-center">Original VW</a>
-                <p>Pecas de 1a linha</p>
+                <p>"Tenhho mto orgulho de fazr parte da Auto"</p>
                 <a href="#" class="btn btn-danger justify-content-center">Paralelo</a>
                 <p>Pecas de 2a linha</p>
             </div>
@@ -291,40 +270,48 @@
                 <a href="#" class="btn btn-danger justify-content-center">Original VW</a>
                 <p>Pecas de 1a linha</p>
                 <a href="#" class="btn btn-danger justify-content-center">Paralelo</a>
-                <p>Pecas de 2a linha</p>
+                <p>"empresa que respeita, estou feliz aqui..."</p>
             </div>
         </div>
     </div>
+    <!--/Novidades-->
 
-</div>
-<!--/Novidades-->
 
-<!--Parallax-->
-<div class="parallax2">
-    <div class="row d-flex ">
-        <div class="col-md-12 d-flex justify-content-end">
-            <h4 class="text-light mb-0">Se beber nao dirija! <p> Va de Taxi!</p>
-            </h4>
-            <img src="/assets/icones/delivery.png" alt="delivery" width="50px" height="50px">
+
+    <div id="footer">
+    <section >
+        <!--Parallax-->
+        <div class="parallax2">
+            <div class="row d-flex ">
+                <div class="col-md-12 d-flex justify-content-end">
+                    <h4 class="text-light mb-0">Se beber nao dirija! <p> Va de Taxi!</p>
+                    </h4>
+                    <img src="/assets/icones/delivery.png" alt="delivery" width="50px" height="50px">
+                </div>
+                <div class="col-md-12 d-flex justify-content-end">
+                    <h4 class="text-light mb-0">Seja consciente!</h4>
+                    <img src="/assets/icones/delivery.png" alt="delivery" width="50px" height="50px">
+                </div>
+            </div>
+
+            <div class="row d-flex ">
+                <div class="col-md-12 d-flex justify-content-start">
+                    <h4 class="text-light mb-0 p-3">Faca revisao antes de pegar estrada. <p> Respeite as sinalizacoes.
+                        </p>
+                    </h4>
+                    <img src="/assets/icones/delivery.png" alt="delivery" width="50px" height="50px">
+                </div>
+                <div class="col-md-12 d-flex justify-content-start">
+                    <h4 class="text-light mb-0 p-3">Verifique o freio.</h4>
+                    <img src="/assets/icones/delivery.png" alt="delivery" width="50px" height="50px">
+                </div>
+            </div>
+
+
         </div>
-        <div class="col-md-12 d-flex justify-content-end">
-            <h4 class="text-light mb-0">Seja consciente!</h4>
-            <img src="/assets/icones/delivery.png" alt="delivery" width="50px" height="50px">
-        </div>
+        <!--/Parallax-->
+    </section>
     </div>
 
-    <div class="row d-flex ">
-        <div class="col-md-12 d-flex justify-content-start">
-            <h4 class="text-light mb-0 p-3">Faca revisao antes de pegar estrada. <p> Respeite as sinalizacoes.</p>
-            </h4>
-            <img src="/assets/icones/delivery.png" alt="delivery" width="50px" height="50px">
-        </div>
-        <div class="col-md-12 d-flex justify-content-start">
-            <h4 class="text-light mb-0 p-3">Verifique o freio.</h4>
-            <img src="/assets/icones/delivery.png" alt="delivery" width="50px" height="50px">
-        </div>
-    </div>
-
 
 </div>
-<!--/Parallax-->
