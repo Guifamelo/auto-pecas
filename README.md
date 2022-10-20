@@ -14,8 +14,12 @@
 </div>
 
 ## Description
+
 A Claimfy API tem por objetivo funcionar como uma interface para obtenção de dados
 oriundos, principalmente, da DBJus e demais fontes externas a Claimfy.
+
+#### Fontes de Dados
+- DBJus (Em integração)
 
 ## Getting Started
 
@@ -23,54 +27,24 @@ oriundos, principalmente, da DBJus e demais fontes externas a Claimfy.
 
 #### Requirements
 
-- python 3.10.5
-- pyenv
 - poetry
 
-Go to the agamotto lib directory
 
-```bash
-cd libs/agamotto/
-```
+## Instalação
 
-Set the local version of python with pyenv
-
-```bash
-pyenv local 3.10.5
-
-poetry env use 3.10.5
-
+```sh
+cd apps/orb
 poetry install
 ```
 
-## Lib Structure
+## Execução
 
-### Directory Layout
-
-```bash
-.
-├── /agamotto/                # Lib directory
-│   ├── /data_lib/            # Data Lib Facade interface
-│   ├── /models/              # Models of database
-│   ├── /repositories/        # Repositories to access db
-│   ├── /schemas/             # Schemas to responses
-├── /alembic/                 # Migrations
-│   ├── /versions/            # Versioning mof migrations
-├── /tests/                   # Integration Tests
-│   ├── /data_lib/            # Data Lib Tests
-│   ├── /repositories/        # Repositories Tests
-│   ├── /support/             # Support for the tests
-├── poetry.lock               # Poetry lock file
-├── pyproject.toml            # Poetry project to manage dependencies
+```sh
+cd apps/tesseract
+poetry run python orb/main.py
 ```
-
-## Acknowledgments
-
-Inspiration, code snippets, etc.
-
-- [Poetry](https://python-poetry.org/)
-
 ---
 
 Made with ♥ by Claimfy (https://github.com/claimfy)
 ​
+
