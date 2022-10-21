@@ -6,10 +6,10 @@
 <br />
 <div align="center">
   <a href="https://github.com/claimfy/cfy-infinity-arc">
-    <img src="https://raw.githubusercontent.com/claimfy/claimfy/main/images/eye-of-agamotto-pixel-art.png" alt="Logo" width="80" height="60">
+    <img src="https://imgur.com/a/QT1y3kN" alt="Logo" width="80" height="60">
   </a>
 
-  <h3 align="center">Data of Agamotto</h3>
+  <h3 align="center">ORB API</h3>
 
 </div>
 
